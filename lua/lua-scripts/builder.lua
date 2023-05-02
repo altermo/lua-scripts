@@ -8,7 +8,7 @@ M.builders={
     rust={normal='rustc %s -o __tmp;./__tmp;rm __tmp'},
     cpp={normal='zig c++ -O2 %s -o __tmp;./__tmp;rm __tmp'},
     c={normal='zig cc -O2 %s -o __tmp;./__tmp;rm __tmp'},
-    vim={source='so %s'},
+    vim={source='so %'},
     zig={normal='zig run %s'},
 }
 function M.eval()
